@@ -1,0 +1,37 @@
+
+/*El asterisco es un selector universal*/
+
+*{
+    background-color: aquamarine;
+}
+
+/*selectores de tipo
+selecciona todos los elementos con este nombre
+*/
+
+h1{
+    font-family: 'Gabarito', sans-serif;
+}
+
+/* selector de id, permite seleccionar un elemento con id especifico, no se comparte con otros elementos, para llamarlo se usa el # */
+#personal-photo{
+    width: 300px;
+    height: 150px;
+}
+
+/*tambien se puede hacer de la sig manera, para acortar instrucciones
+
+h1,h2,h3{ 'Gabarito', sans-serif;
+
+}
+
+/*
+body { 
+    /*este es un comentario en CSS
+    background-color: cornflowerblue;
+}
+p {
+    color:rgb(59, 41, 192);
+}
+
+*/
